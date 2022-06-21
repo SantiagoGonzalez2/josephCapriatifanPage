@@ -1,0 +1,150 @@
+.index {
+    background-color: $miColor;
+
+    h1 {
+        font-family: $fontIdem;
+        font-size: 80px;
+        color: white;
+        background: rgb(0, 0, 0);
+        background: linear-gradient(0deg, rgba(0, 0, 0, 1) 40%, rgba(64, 64, 64, 0.6867121848739496) 54%, rgba(0, 0, 0, 1) 70%);
+        text-align: center;
+
+    }
+
+    .seccionPrincipal {
+        display: grid;
+        grid-auto-columns: 1fr;
+        gap: 0px 0px;
+        grid-auto-flow: row;
+        grid-template-areas:
+            "imagen parrafo musica"
+            "imagen parrafo musica";
+    }
+
+    .parrafo {
+        grid-area: parrafo;
+        font-family: $fontIdem;
+        color: white;
+        font-size: 20px;
+        text-align: justify;
+        margin-left: 18%;
+        margin-top: 5%;
+
+    }
+
+    .imagen {
+        grid-area: imagen;
+
+        img {
+            width: 95%;
+            box-shadow: 10px 10px 10px 10px rgba(0, 0, 0, 0.287);
+            margin-left: 11%;
+            margin-top: 3%;
+        }
+
+    }
+
+    .musica {
+        grid-area: musica;
+        margin: auto
+    }
+
+    .seccionSecundaria {
+        display: grid;
+        grid-auto-columns: 1fr;
+        gap: 0px 0px;
+        grid-auto-flow: row;
+        grid-template-areas:
+            "info video video"
+            "info video video";
+    }
+
+    .video {
+        grid-area: video;
+        margin-left: 30%;
+        margin-top: 7%;
+    }
+
+    .info {
+        grid-area: info;
+        margin-top: 10%;
+        margin-left: 10%;
+
+        h2 {
+            font-size: 40px;
+            color: white;
+            font-family: $fontIdem;
+            margin-top: 10px;
+            text-align: center;
+        }
+
+        p {
+            font-size: 20px;
+            font-family: $fontIdem;
+            text-align: justify;
+            color: white;
+            margin-top: 6%;
+        }
+    }
+
+    footer {
+        margin-top: 3%;
+        background: rgb(0, 0, 0);
+        background: linear-gradient(0deg, rgba(0, 0, 0, 1) 40%, rgba(64, 64, 64, 0.6867121848739496) 54%, rgba(0, 0, 0, 1) 70%);
+
+        ul {
+            display: flex;
+            flex-direction: row;
+            justify-content: center;
+
+        }
+
+        li {
+            font-size: 25px;
+            padding: 2%;
+            list-style: none;
+
+            &:hover {
+                transform: scale(1.5);
+                transition: .5s;
+            }
+
+            a {
+                color: white;
+            }
+        }
+    }
+    @media (max-width:600px){
+        h1{
+            display: block;
+        }
+        .seccionPrincipal{
+            display: flex;
+            flex-direction: column;
+            img{
+                margin-left: 1%;
+            }
+            p{
+                margin-left: 0%;
+                padding: 3%;
+                
+            }
+        }
+        .seccionSecundaria{
+            display: flex;
+            flex-direction: column;
+            article{
+                display: none;
+            }
+            div{
+                margin-left: 1%;
+                padding: 3%;
+            }
+        }
+    
+    }
+
+
+
+
+}
