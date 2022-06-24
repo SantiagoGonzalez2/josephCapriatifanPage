@@ -119,13 +119,13 @@ h1 {
   background: linear-gradient(0deg, black 40%, rgba(64, 64, 64, 0.686712) 54%, black 70%); }
 
 nav {
-  background-color: black;
-  height: 100vh;
-  position: fixed; }
+  background: black;
+  background: linear-gradient(0deg, black 40%, rgba(64, 64, 64, 0.686712) 54%, black 70%); }
   nav ul {
     display: flex;
-    flex-direction: column; }
+    flex-direction: row;
+    justify-content: space-between; }
     nav ul li {
-      padding-top: 90%;
       font-size: 20px;
-      text-align: center; }
+      padding: 30px;
+      list-style: none; }
