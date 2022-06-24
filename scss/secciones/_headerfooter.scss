@@ -1,0 +1,29 @@
+h1 {
+    font-family: $fontIdem;
+    font-size: 80px;
+    color: white;
+    text-align: center;
+    background: rgb(0, 0, 0);
+    background: linear-gradient(0deg, rgba(0, 0, 0, 1) 40%, rgba(64, 64, 64, 0.6867121848739496) 54%, rgba(0, 0, 0, 1) 70%);
+    
+
+}
+
+nav{
+    background-color: black;
+    height: 100vh;
+    position: fixed;
+    ul{
+        display: flex;
+        flex-direction: column;
+    li{
+       @extend %estiloDeletras;
+       padding-top: 90%;
+       font-size: 20px;
+       text-align: center;
+        
+    }
+
+    
+    }
+}

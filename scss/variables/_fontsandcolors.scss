@@ -4,6 +4,9 @@
  $fontIdem: 'Bebas Neue';
  $miColor: #242526;
  
-
+%estiloDeletras{
+    font-family: $fontIdem;
+    color:white
+}
 
  //Nombran el atributo que asignamos con $, luego lo llamamos por su nombre//

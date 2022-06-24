@@ -4,98 +4,128 @@
   padding: 0;
   margin: 0%; }
 
-.index {
-  background-color: #242526; }
-  .index h1 {
-    font-family: "Bebas Neue";
-    font-size: 80px;
+nav ul li {
+  font-family: "Bebas Neue";
+  color: white; }
+
+.index video {
+  position: fixed;
+  left: 0;
+  top: 0;
+  width: 100%;
+  z-index: -1; }
+
+.index .seccionPrincipal {
+  display: grid;
+  grid-auto-columns: 1fr;
+  gap: 0px 0px;
+  grid-auto-flow: row;
+  grid-template-areas: "imagen parrafo musica" "imagen parrafo musica"; }
+
+.index .parrafo {
+  grid-area: parrafo;
+  font-family: "Bebas Neue";
+  color: white;
+  font-size: 20px;
+  text-align: justify;
+  margin-left: 18%;
+  margin-top: 5%; }
+
+.index .imagen {
+  grid-area: imagen; }
+  .index .imagen img {
+    width: 95%;
+    box-shadow: 10px 10px 10px 10px rgba(0, 0, 0, 0.287);
+    margin-left: 11%;
+    margin-top: 3%; }
+
+.index .musica {
+  grid-area: musica;
+  margin: auto; }
+
+.index .seccionSecundaria {
+  display: grid;
+  grid-auto-columns: 1fr;
+  gap: 0px 0px;
+  grid-auto-flow: row;
+  grid-template-areas: "info video video" "info video video"; }
+
+.index .video {
+  grid-area: video;
+  margin-left: 30%;
+  margin-top: 7%; }
+
+.index .info {
+  grid-area: info;
+  margin-top: 10%;
+  margin-left: 10%; }
+  .index .info h2 {
+    font-size: 40px;
     color: white;
-    background: black;
-    background: linear-gradient(0deg, black 40%, rgba(64, 64, 64, 0.686712) 54%, black 70%);
+    font-family: "Bebas Neue";
+    margin-top: 10px;
     text-align: center; }
-  .index .seccionPrincipal {
-    display: grid;
-    grid-auto-columns: 1fr;
-    gap: 0px 0px;
-    grid-auto-flow: row;
-    grid-template-areas: "imagen parrafo musica" "imagen parrafo musica"; }
-  .index .parrafo {
-    grid-area: parrafo;
-    font-family: "Bebas Neue";
-    color: white;
+  .index .info p {
     font-size: 20px;
+    font-family: "Bebas Neue";
     text-align: justify;
-    margin-left: 18%;
-    margin-top: 5%; }
-  .index .imagen {
-    grid-area: imagen; }
-    .index .imagen img {
-      width: 95%;
-      box-shadow: 10px 10px 10px 10px rgba(0, 0, 0, 0.287);
-      margin-left: 11%;
-      margin-top: 3%; }
-  .index .musica {
-    grid-area: musica;
-    margin: auto; }
+    color: white;
+    margin-top: 6%; }
+
+.index footer {
+  margin-top: 3%;
+  background: black;
+  background: linear-gradient(0deg, black 40%, rgba(64, 64, 64, 0.686712) 54%, black 70%); }
+  .index footer ul {
+    display: flex;
+    flex-direction: row;
+    justify-content: center; }
+  .index footer li {
+    font-size: 25px;
+    padding: 2%;
+    list-style: none; }
+    .index footer li:hover {
+      transform: scale(1.5);
+      transition: .5s; }
+    .index footer li a {
+      color: white; }
+
+@media (max-width: 600px) {
+  .index h1 {
+    display: block; }
+  .index .seccionPrincipal {
+    display: flex;
+    flex-direction: column; }
+    .index .seccionPrincipal img {
+      margin-left: 1%; }
+    .index .seccionPrincipal p {
+      margin-left: 0%;
+      padding: 3%; }
   .index .seccionSecundaria {
-    display: grid;
-    grid-auto-columns: 1fr;
-    gap: 0px 0px;
-    grid-auto-flow: row;
-    grid-template-areas: "info video video" "info video video"; }
-  .index .video {
-    grid-area: video;
-    margin-left: 30%;
-    margin-top: 7%; }
-  .index .info {
-    grid-area: info;
-    margin-top: 10%;
-    margin-left: 10%; }
-    .index .info h2 {
-      font-size: 40px;
-      color: white;
-      font-family: "Bebas Neue";
-      margin-top: 10px;
-      text-align: center; }
-    .index .info p {
+    display: flex;
+    flex-direction: column; }
+    .index .seccionSecundaria article {
+      display: none; }
+    .index .seccionSecundaria div {
+      margin-left: 1%;
+      padding: 3%; } }
+
+h1 {
+  font-family: "Bebas Neue";
+  font-size: 80px;
+  color: white;
+  text-align: center;
+  background: black;
+  background: linear-gradient(0deg, black 40%, rgba(64, 64, 64, 0.686712) 54%, black 70%); }
+
+nav {
+  background-color: black;
+  height: 100vh;
+  position: fixed; }
+  nav ul {
+    display: flex;
+    flex-direction: column; }
+    nav ul li {
+      padding-top: 90%;
       font-size: 20px;
-      font-family: "Bebas Neue";
-      text-align: justify;
-      color: white;
-      margin-top: 6%; }
-  .index footer {
-    margin-top: 3%;
-    background: black;
-    background: linear-gradient(0deg, black 40%, rgba(64, 64, 64, 0.686712) 54%, black 70%); }
-    .index footer ul {
-      display: flex;
-      flex-direction: row;
-      justify-content: center; }
-    .index footer li {
-      font-size: 25px;
-      padding: 2%;
-      list-style: none; }
-      .index footer li:hover {
-        transform: scale(1.5);
-        transition: .5s; }
-      .index footer li a {
-        color: white; }
-  @media (max-width: 600px) {
-    .index h1 {
-      display: block; }
-    .index .seccionPrincipal {
-      display: flex;
-      flex-direction: column; }
-      .index .seccionPrincipal img {
-        margin-left: 1%; }
-      .index .seccionPrincipal p {
-        margin-left: 0%;
-        padding: 3%; }
-    .index .seccionSecundaria {
-      display: flex;
-      flex-direction: column; }
-      .index .seccionSecundaria article {
-        display: none; }
-      .index .seccionSecundaria div {
-        margin-left: 1%;
-        padding: 3%; } }
+      text-align: center; }
