@@ -1,115 +1,44 @@
 .index {
-    
+    overflow: hidden;
+      .Titulo{
+        margin-top: 0;
+        position: absolute;
+        background: rgba(0, 0, 0, 0.43);
+        height: 100%;
+        width: 100%;}
+      
+      h1{margin-top: 6%;
+        text-shadow: 
+        0 -1px 0 #fff, 
+        0 1px 0 #2e2e2e, 
+        0 2px 0 #2c2c2c, 
+        0 3px 0 #2a2a2a, 
+        0 4px 0 #282828, 
+        0 5px 0 #262626, 
+        0 6px 0 #242424, 
+        0 7px 0 #222, 
+        0 8px 0 #202020, 
+        0 9px 0 #1e1e1e, 
+        0 10px 0 #1c1c1c, 
+        0 11px 0 #1a1a1a, 
+        0 12px 0 #181818, 
+        0 13px 0 #161616, 
+        0 14px 0 #141414, 
+        0 15px 0 #121212, 
+        0 22px 30px rgba(0, 0, 0, 0.9);
+        font-style: italic;
+
+      }
+  
     video {
         position: fixed;
         left: 0;
         top: 0;
         width:100%;
+        height: 100%;
         z-index: -1;
       }
 
-    .seccionPrincipal {
-        display: grid;
-        grid-auto-columns: 1fr;
-        gap: 0px 0px;
-        grid-auto-flow: row;
-        grid-template-areas:
-            "imagen parrafo musica"
-            "imagen parrafo musica";
-    }
-
-    .parrafo {
-        grid-area: parrafo;
-        font-family: $fontIdem;
-        color: white;
-        font-size: 20px;
-        text-align: justify;
-        margin-left: 18%;
-        margin-top: 5%;
-
-    }
-
-    .imagen {
-        grid-area: imagen;
-
-        img {
-            width: 95%;
-            box-shadow: 10px 10px 10px 10px rgba(0, 0, 0, 0.287);
-            margin-left: 11%;
-            margin-top: 3%;
-        }
-
-    }
-
-    .musica {
-        grid-area: musica;
-        margin: auto
-    }
-
-    .seccionSecundaria {
-        display: grid;
-        grid-auto-columns: 1fr;
-        gap: 0px 0px;
-        grid-auto-flow: row;
-        grid-template-areas:
-            "info video video"
-            "info video video";
-    }
-
-    .video {
-        grid-area: video;
-        margin-left: 30%;
-        margin-top: 7%;
-    }
-
-    .info {
-        grid-area: info;
-        margin-top: 10%;
-        margin-left: 10%;
-
-        h2 {
-            font-size: 40px;
-            color: white;
-            font-family: $fontIdem;
-            margin-top: 10px;
-            text-align: center;
-        }
-
-        p {
-            font-size: 20px;
-            font-family: $fontIdem;
-            text-align: justify;
-            color: white;
-            margin-top: 6%;
-        }
-    }
-
-    footer {
-        margin-top: 3%;
-        background: rgb(0, 0, 0);
-        background: linear-gradient(0deg, rgba(0, 0, 0, 1) 40%, rgba(64, 64, 64, 0.6867121848739496) 54%, rgba(0, 0, 0, 1) 70%);
-
-        ul {
-            display: flex;
-            flex-direction: row;
-            justify-content: center;
-
-        }
-
-        li {
-            font-size: 25px;
-            padding: 2%;
-            list-style: none;
-
-            &:hover {
-                transform: scale(1.5);
-                transition: .5s;
-            }
-
-            a {
-                color: white;
-            }
-        }
     }
 
     @media (max-width:600px) {
@@ -151,4 +80,3 @@
 
 
 
-}
