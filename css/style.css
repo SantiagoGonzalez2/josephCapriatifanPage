@@ -28,26 +28,6 @@ nav ul li {
     height: 100%;
     z-index: -1; }
 
-@media (max-width: 600px) {
-  h1 {
-    display: block; }
-  .seccionPrincipal {
-    display: flex;
-    flex-direction: column; }
-    .seccionPrincipal img {
-      margin-left: 1%; }
-    .seccionPrincipal p {
-      margin-left: 0%;
-      padding: 3%; }
-  .seccionSecundaria {
-    display: flex;
-    flex-direction: column; }
-    .seccionSecundaria article {
-      display: none; }
-    .seccionSecundaria div {
-      margin-left: 1%;
-      padding: 3%; } }
-
 h1 {
   font-family: "Bebas Neue";
   font-size: 80px;

@@ -41,41 +41,9 @@
 
     }
 
-    @media (max-width:600px) {
-        h1 {
-            display: block;
-        }
+ 
 
-        .seccionPrincipal {
-            display: flex;
-            flex-direction: column;
-
-            img {
-                margin-left: 1%;
-            }
-
-            p {
-                margin-left: 0%;
-                padding: 3%;
-
-            }
-        }
-
-        .seccionSecundaria {
-            display: flex;
-            flex-direction: column;
-
-            article {
-                display: none;
-            }
-
-            div {
-                margin-left: 1%;
-                padding: 3%;
-            }
-        }
-
-    }
+    
 
 
 
