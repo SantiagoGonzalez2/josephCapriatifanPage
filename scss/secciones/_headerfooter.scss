@@ -8,39 +8,49 @@ h1 {
 }
 
 nav {
-    background: rgb(52, 52, 52);
-    background: linear-gradient(0deg, rgba(52, 52, 52, 0.7483368347338936) 0%, rgba(0, 0, 0, 1) 32%);
+    position: relative;
+    background: rgba(0, 0, 0, 0.634);}
 
     ul {
         display: flex;
         flex-direction: row;
-        justify-content: space-between;
+        justify-content: space-between;}
 
         li {
             @extend %estiloDeletras;
             font-size: 20px;
-            padding: 30px;
+            padding: 40px;
             list-style: none;
+            a{
+                text-decoration: none;
+            &:hover{
+                color: gray;
+                transition: .5s;
+                &:active{
+                    color:gold
+                }
         }
-
+    
     }
 }
-
+    
 .footer {
-    position: absolute;
+    position: fixed;
     bottom: 0;
     width: 100%;
     margin-top: 3%;
-    background: rgb(0, 0, 0);
-    background: linear-gradient(0deg, rgba(0, 0, 0, 1) 76%, rgba(52, 52, 52, 0.7483368347338936) 100%);
+    .parrafoFoot{
+        text-align: center;
+        @extend %estiloDeletras;
+        font-size:20px
+    }
 }
 
 ul {
     display: flex;
     flex-direction: row;
     justify-content: center;
-
-
+   
     li {
         font-size: 25px;
         padding: 2%;
@@ -55,4 +65,5 @@ ul {
             color: white;
         }
     }
+    
 }
