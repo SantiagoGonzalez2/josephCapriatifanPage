@@ -100,3 +100,16 @@ ul {
     text-align: justify; }
   .history article {
     margin-right: 22%; }
+
+#participation {
+  display: flex;
+  flex-wrap: wrap;
+  margin-left: 7%; }
+  #participation .card {
+    border: none;
+    padding: 3%;
+    background-color: rgba(0, 0, 0, 0); }
+    #participation .card p {
+      text-align: center; }
+    #participation .card a {
+      margin-left: 9%; }

@@ -1,0 +1,17 @@
+#participation{
+    display: flex;
+    flex-wrap: wrap;
+    margin-left: 7%;
+    
+    .card{
+        border: none;
+        padding: 3%;
+        background-color: rgba(0, 0, 0, 0);
+        p{
+            text-align: center;
+        }
+        a{
+            margin-left: 9%;
+        }
+    }
+}
