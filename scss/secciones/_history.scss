@@ -1,5 +1,5 @@
 .history {
-    background-image:url('..git /imagenes/history.jpg');
+    background-image:url('../imagenes/history.jpg');
     background-size: 100%;
 
     .seccion {
@@ -10,7 +10,7 @@
     section {
         h2 {
             @extend %estiloDeletras;
-            font-size: 70px;
+            font-size: 71px;
             text-shadow:
                 0 -1px 0 #fff,
                 0 1px 0 #2e2e2e,
