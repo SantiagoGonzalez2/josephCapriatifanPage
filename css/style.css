@@ -119,3 +119,13 @@ ul {
 
 #events .table {
   background-color: rgba(0, 0, 0, 0.455); }
+
+#contacto {
+  align-items: center; }
+  #contacto .text-white {
+    margin-left: 48%; }
+  #contacto .label2 {
+    margin-left: 47%; }
+  #contacto button {
+    margin-left: 47%;
+    margin-top: 3%; }
