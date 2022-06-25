@@ -79,7 +79,7 @@ ul {
       color: white; }
 
 .history {
-  background-image: url("../../imagenes/history.jpg");
+  background-image: url("../../history.jpg");
   background-size: 100%; }
   .history .seccion {
     display: flex;
