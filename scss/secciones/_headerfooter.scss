@@ -6,7 +6,15 @@ h1 {
 
 
 }
-
+#marca{
+    font-family: $fontcopy , cursive;
+    margin-left: 0;
+    color: white;
+    margin-bottom: 0;
+    position: fixed;
+    font-size: 15px;
+    margin-top: 1px;
+}
 nav {
     position: relative;
     background: rgba(0, 0, 0, 0.634);
@@ -17,7 +25,7 @@ ul {
     display: flex;
     flex-direction: row;
     justify-content: center;
-    padding: 10px
+    
     
     
 }
