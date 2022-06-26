@@ -16,14 +16,16 @@ nav {
 ul {
     display: flex;
     flex-direction: row;
-    justify-content: space-between;
+    justify-content: center;
+    padding: 10px
+    
     
 }
 
 li {
     @extend %estiloDeletras;
     font-size: 20px;
-    padding: 20px;
+    padding: 10px;
     list-style: none;
 
     a {
@@ -35,7 +37,7 @@ li {
             transition: .5s;
 
             &:active {
-                color: gold
+                color: rgb(45, 45, 140)
             }
         }
 
