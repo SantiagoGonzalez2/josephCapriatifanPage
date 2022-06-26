@@ -7,11 +7,13 @@
         border: none;
         padding: 3%;
         background-color: rgba(0, 0, 0, 0);
+        align-content: center;
+        &:hover{
+            transform: scale(1.2);
+            transition: 1s;   
+        }
         p{
             text-align: center;
-        }
-        a{
-            margin-left: 9%;
-        }
+        }   
     }
 }
