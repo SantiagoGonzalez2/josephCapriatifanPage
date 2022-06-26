@@ -29,6 +29,10 @@ li, .footer .parrafoFoot, .history section h2, .history section p {
     height: 100%;
     z-index: -1; }
 
+@media (min-width: 2000px) {
+  .index h1 {
+    font-size: 160px; } }
+
 h1 {
   font-family: "Bebas Neue";
   font-size: 80px;
@@ -99,6 +103,16 @@ li {
   #marca {
     display: none; } }
 
+@media (min-width: 2000px) {
+  nav ul li {
+    font-size: 50px; }
+  #footer li {
+    font-size: 50px; }
+  .footer .parrafoFoot {
+    font-size: 40px; }
+  #marca {
+    font-size: 20px; } }
+
 .history {
   background-image: url("../imagenes/history.jpg");
   background-size: 100%; }
@@ -130,6 +144,19 @@ li {
     .history .seccion p {
       margin: auto; } }
 
+@media (min-width: 2000px) {
+  .history section h2 {
+    font-size: 130px;
+    margin-top: 6%; }
+  .history section p {
+    font-size: 40px; }
+  .boton {
+    font-size: 30px; }
+  .seccion div img {
+    width: 30vh;
+    margin-left: 30%;
+    margin-top: 25%; } }
+
 #participation {
   display: flex;
   flex-wrap: wrap;
@@ -148,6 +175,11 @@ li {
 @media (max-width: 550px) {
   .card {
     margin: auto; } }
+
+@media (min-width: 2000px) {
+  #participation {
+    justify-content: center;
+    margin-left: 0; } }
 
 #events h2 {
   text-align: center;

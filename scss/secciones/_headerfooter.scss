@@ -102,3 +102,18 @@ li {
         display: none;
     }
 }
+
+@media (min-width: 2000px){
+    nav ul li{
+        font-size: 50px;
+    }
+    #footer li{
+        font-size: 50px;
+    }
+   .footer .parrafoFoot{
+        font-size: 40px;
+    }
+    #marca{
+        font-size: 20px;
+    }
+}

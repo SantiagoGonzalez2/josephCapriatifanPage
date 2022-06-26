@@ -73,3 +73,23 @@
         }
     }
 }
+@media (min-width: 2000px){
+
+   .history section
+   h2{
+        font-size: 130px;
+        margin-top: 6%;
+    }
+    .history section p{
+        font-size: 40px;
+       }
+       .boton{
+        font-size: 30px;
+       }
+
+       .seccion div img{
+        width: 30vh;
+        margin-left: 30%;
+        margin-top: 25%;
+       }
+}
