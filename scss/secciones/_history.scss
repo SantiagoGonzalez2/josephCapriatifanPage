@@ -1,5 +1,5 @@
 .history {
-    background-image:url('../imagenes/history.jpg');
+    background-image: url('../imagenes/history.jpg');
     background-size: 100%;
 
     .seccion {
@@ -30,11 +30,15 @@
                 0 15px 0 #121212,
                 0 22px 30px rgba(0, 0, 0, 0.9);
             font-style: italic;
-            margin-left: 31%}
-            .boton {
-                margin-left: 40%;
-                padding: 1%;
-                border-radius: 33px;   
+            margin-left: 10%;
+        }
+
+
+
+        .boton {
+            margin-left: 40%;
+            padding: 1%;
+            border-radius: 33px;
         }
 
         p {
@@ -55,3 +59,17 @@
 }
 
 
+@media (max-width: 550px) {
+
+    .history .seccion {
+        flex-direction: column;
+
+        h2 {
+            margin: auto;
+        }
+
+        p {
+            margin: auto;
+        }
+    }
+}
