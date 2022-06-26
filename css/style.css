@@ -152,7 +152,8 @@ li {
   align-items: center;
   text-align: center; }
   #contacto .ticont {
-    text-align: justify; }
+    text-align: center;
+    margin-left: 0; }
   #contacto button {
     margin-top: 1%;
     align-items: center;
