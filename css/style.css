@@ -95,6 +95,10 @@ li {
     #footer li a {
       color: white; }
 
+@media (max-width: 550px) {
+  #marca {
+    display: none; } }
+
 .history {
   background-image: url("../imagenes/history.jpg");
   background-size: 100%; }

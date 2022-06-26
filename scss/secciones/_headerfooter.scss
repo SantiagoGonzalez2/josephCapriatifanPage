@@ -96,3 +96,9 @@ li {
     }
 
 }
+
+@media (max-width: 550px) {
+    #marca{
+        display: none;
+    }
+}
