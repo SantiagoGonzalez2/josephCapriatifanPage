@@ -131,9 +131,11 @@ li {
     font-size: 20px;
     padding: 2%;
     text-align: justify; }
-  .history article img {
-    height: 60vh;
-    padding: 10px 60px; }
+  .history article {
+    margin-right: 15%; }
+    .history article img {
+      width: 40vh;
+      padding-top: 15%; }
 
 @media (max-width: 550px) {
   .history .seccion {
