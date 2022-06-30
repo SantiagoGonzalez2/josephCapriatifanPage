@@ -4,7 +4,8 @@
 
     .seccion {
         display: flex;
-        flex-direction: row
+        flex-direction: row;
+        
     }
 
     section {
@@ -52,7 +53,11 @@
     }
 
     article {
-        margin-right: 22%;
+   img {
+    height: 60vh;
+    padding: 10px 60px;
+   }
+        
     }
 
 

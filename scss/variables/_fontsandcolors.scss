@@ -10,4 +10,9 @@
     color:white
 }
 
+@mixin miEstilo ($display,$ubicacion) {
+    display: $display;
+    justify-content: $ubicacion;
+}
+
  //Nombran el atributo que asignamos con $, luego lo llamamos por su nombre//

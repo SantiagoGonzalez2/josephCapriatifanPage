@@ -67,8 +67,6 @@ li {
     li a:hover {
       color: gray;
       transition: .5s; }
-      li a:hover:active {
-        color: #2d2d8c; }
 
 .footer {
   position: fixed;
@@ -133,8 +131,9 @@ li {
     font-size: 20px;
     padding: 2%;
     text-align: justify; }
-  .history article {
-    margin-right: 22%; }
+  .history article img {
+    height: 60vh;
+    padding: 10px 60px; }
 
 @media (max-width: 550px) {
   .history .seccion {
@@ -159,8 +158,8 @@ li {
 
 #participation {
   display: flex;
-  flex-wrap: wrap;
-  margin-left: 7%; }
+  justify-content: center;
+  flex-wrap: wrap; }
   #participation .card {
     border: none;
     padding: 3%;
@@ -171,6 +170,8 @@ li {
       transition: 1s; }
     #participation .card p {
       text-align: center; }
+    #participation .card a {
+      text-decoration: none; }
 
 @media (max-width: 550px) {
   .card {

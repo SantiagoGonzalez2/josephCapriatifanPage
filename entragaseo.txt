@@ -1,0 +1,7 @@
+seo
+
+1-carpeta con paginas
+2-etiqueta meta keywords y description
+3-titulo
+4-archivo xml
+5-se alojo imagenes en una nube para evitar peso

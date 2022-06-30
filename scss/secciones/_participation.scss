@@ -1,7 +1,6 @@
 #participation{
-    display: flex;
+ @include miEstilo (flex,center);
     flex-wrap: wrap;
-    margin-left: 7%;
     
     .card{
         border: none;
@@ -14,7 +13,10 @@
         }
         p{
             text-align: center;
-        }   
+        }  
+        a{
+            text-decoration: none;
+        } 
     }
 }
 @media (max-width: 550px) {
