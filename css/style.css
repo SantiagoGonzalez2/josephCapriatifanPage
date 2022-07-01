@@ -126,6 +126,9 @@ li {
     margin-left: 40%;
     padding: 1%;
     border-radius: 33px; }
+  .history section a {
+    text-decoration: none;
+    color: black; }
   .history section p {
     margin: 2% 20% 0 5%;
     font-size: 20px;
@@ -137,13 +140,15 @@ li {
       width: 40vh;
       padding-top: 15%; }
 
-@media (max-width: 550px) {
+@media (max-width: 601px) {
   .history .seccion {
     flex-direction: column; }
     .history .seccion h2 {
       margin: auto; }
     .history .seccion p {
-      margin: auto; } }
+      margin: auto; }
+  article img {
+    display: none; } }
 
 @media (min-width: 2000px) {
   .history section h2 {
