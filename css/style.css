@@ -195,7 +195,8 @@ li {
 
 @media (max-width: 550px) {
   .card {
-    margin: auto; }
+    margin: auto;
+    padding: 20%; }
     .card .card-text {
       font-size: 30px; }
   main {
