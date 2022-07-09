@@ -153,6 +153,8 @@ li {
       margin: auto; }
     .history .seccion p {
       margin: auto; }
+    .history .seccion .boton {
+      margin-left: 2%; }
   article img {
     display: none; } }
 
@@ -241,4 +243,6 @@ li {
 @media (max-width: 550px) {
   #contacto .ticont {
     text-align: center;
-    margin-left: 0; } }
+    margin-left: 0; }
+  #contacto button {
+    margin-left: 35%; } }

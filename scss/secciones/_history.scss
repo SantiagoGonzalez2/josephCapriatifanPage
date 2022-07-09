@@ -63,7 +63,6 @@
         }
     }
 
-
     article {
         margin-right: 15%;
    img {
@@ -91,10 +90,14 @@
         p {
             margin: auto;
         }
+        .boton{
+            margin-left: 2%;
+        }
     }
     article img{
         display: none;
     }
+  
 }
 @media (min-width: 2000px){
 
