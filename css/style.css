@@ -153,8 +153,6 @@ li {
       margin: auto; }
     .history .seccion p {
       margin: auto; }
-    .history .seccion .boton {
-      margin-left: 2%; }
   article img {
     display: none; } }
 
@@ -197,7 +195,9 @@ li {
 
 @media (max-width: 550px) {
   .card {
-    margin: auto; } }
+    margin: auto; }
+  main {
+    margin-bottom: 30%; } }
 
 @media (min-width: 2000px) {
   #participation {
@@ -243,6 +243,4 @@ li {
 @media (max-width: 550px) {
   #contacto .ticont {
     text-align: center;
-    margin-left: 0; }
-  #contacto button {
-    margin-left: 35%; } }
+    margin-left: 0; } }
