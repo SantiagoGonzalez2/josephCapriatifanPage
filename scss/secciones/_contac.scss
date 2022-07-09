@@ -8,11 +8,14 @@
         margin-left: 0;
     }
         button{   
-            margin-top: 1%;
+            margin-top: 3%;
             align-items: center;
             width: 100px;
+            border-radius: 33px;
+            font-family: $fontIdem;
+            font-size: 20px;
             &:hover{
-                transform: scale(1,2);
+                transform: scale(1.5);
                 transition: 1s;
             }
         }

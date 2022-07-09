@@ -5,7 +5,7 @@
   padding: 0;
   margin: 0%; }
 
-li, .footer .parrafoFoot, .history section h2, .history section p {
+li, .footer .parrafoFoot, .history section h2, .history section p, #titulosets {
   font-family: "Bebas Neue";
   color: white; }
 
@@ -126,9 +126,14 @@ li {
     margin-left: 40%;
     padding: 1%;
     border-radius: 33px; }
+    .history section .boton:hover {
+      transform: scale(1.5);
+      transition: 1s; }
   .history section a {
     text-decoration: none;
-    color: black; }
+    color: black;
+    font-family: "Bebas Neue";
+    font-size: 20px; }
   .history section p {
     margin: 2% 20% 0 5%;
     font-size: 20px;
@@ -138,7 +143,8 @@ li {
     margin-right: 15%; }
     .history article img {
       width: 40vh;
-      padding-top: 15%; }
+      padding-top: 15%;
+      filter: drop-shadow(10px 10px 10px rgba(0, 0, 0, 0.7)); }
 
 @media (max-width: 601px) {
   .history .seccion {
@@ -162,6 +168,13 @@ li {
     width: 30vh;
     margin-left: 30%;
     margin-top: 25%; } }
+
+#titulosets {
+  font-size: 71px;
+  color: white;
+  text-shadow: 0 -1px 0 #fff, 0 1px 0 #2e2e2e, 0 2px 0 #2c2c2c, 0 3px 0 #2a2a2a, 0 4px 0 #282828, 0 5px 0 #262626, 0 6px 0 #242424, 0 7px 0 #222, 0 8px 0 #202020, 0 9px 0 #1e1e1e, 0 10px 0 #1c1c1c, 0 11px 0 #1a1a1a, 0 12px 0 #181818, 0 13px 0 #161616, 0 14px 0 #141414, 0 15px 0 #121212, 0 22px 30px rgba(0, 0, 0, 0.9);
+  font-style: italic;
+  text-align: center; }
 
 #participation {
   display: flex;
@@ -208,11 +221,14 @@ li {
     text-align: center;
     margin-left: 0; }
   #contacto button {
-    margin-top: 1%;
+    margin-top: 3%;
     align-items: center;
-    width: 100px; }
+    width: 100px;
+    border-radius: 33px;
+    font-family: "Bebas Neue";
+    font-size: 20px; }
     #contacto button:hover {
-      transform: scale(1, 2);
+      transform: scale(1.5);
       transition: 1s; }
   #contacto .mb-3 input {
     width: 200px;
