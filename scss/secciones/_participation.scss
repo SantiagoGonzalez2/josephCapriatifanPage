@@ -21,21 +21,20 @@
                 0 15px 0 #121212,
                 0 22px 30px rgba(0, 0, 0, 0.9);
             font-style: italic;
-            text-align: center
+            text-align: center;
+            margin-bottom: 5%;
 }
 #participation{
  @include miEstilo (flex,center);
     flex-wrap: wrap;
-    
+    margin-bottom: 20%;
     .card{
         border: none;
-        padding: 3%;
+        padding: 5%;
         background-color: rgba(0, 0, 0, 0);
         align-content: center;
-        &:hover{
-            transform: scale(1.2);
-            transition: 1s;   
-        }
+        
+      
         p{
             text-align: center;
         }  
@@ -44,6 +43,41 @@
         } 
     }
 }
+#chango {
+    display: flex;
+    justify-content: space-around;
+    flex-wrap: wrap;
+    padding: 3% 5% 5% 5%;
+
+}
+
+#chango div {
+    padding: 5px;
+}
+#chango div button {
+    margin-left: 34%;
+    border-radius: 35px 100px 35px 100px;
+    
+    background-color: red;
+}
+
+#boton4 {
+    position: fixed;
+	top: 200px;
+	right: 5px;
+    padding: 20px;
+    border: none;
+	
+}
+
+#boton4 i {
+    font-size: 50px;
+    color:#001755;
+
+    
+}
+
+
 @media (max-width: 550px) {
     #titulosets{
         margin-bottom: 10%;
