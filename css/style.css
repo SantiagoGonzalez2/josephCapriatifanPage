@@ -203,8 +203,7 @@ li {
 
 #chango div button {
   margin-left: 34%;
-  border-radius: 35px 100px 35px 100px;
-  background-color: red; }
+  border: none; }
 
 #boton4 {
   position: fixed;
@@ -215,7 +214,7 @@ li {
 
 #boton4 i {
   font-size: 50px;
-  color: #001755; }
+  color: white; }
 
 @media (max-width: 550px) {
   #titulosets {

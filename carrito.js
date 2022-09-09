@@ -47,12 +47,12 @@ fetch('../data.json')
      })
 
 const agregarcarrito = (datId) => fetch('../data.json')
-
 .then((res) => res.json()
 .then ((data) =>{
     const item = data.find((albu) => albu.id === datId)
     carrito.push(item)
     actualizarcarrito()
+
     Toastify({
         text: "Added Album",
         className: "info",
