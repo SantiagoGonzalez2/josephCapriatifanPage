@@ -257,9 +257,6 @@ li {
     border-radius: 33px;
     font-family: "Bebas Neue";
     font-size: 20px; }
-    #contacto button:hover {
-      transform: scale(1.5);
-      transition: 1s; }
   #contacto .mb-3 input {
     width: 200px;
     margin: auto; }

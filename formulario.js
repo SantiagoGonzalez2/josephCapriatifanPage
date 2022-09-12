@@ -1,6 +1,6 @@
 let mensaje = document.getElementById('exampleFormControlTextarea1')
 const texto = document.getElementById('texto')
-const enviar = document.getElementById('boton23')
+
 
 function larga () {
 
@@ -17,15 +17,29 @@ function larga () {
 
   mensaje.addEventListener("input", larga)
 
+  const btn = document.getElementById('botoncito');
 
-  enviar.addEventListener("click" , ()  => {
-
-Swal.fire({
-    position: 'top-end',
-    icon: 'success',
-    title: 'Sent successfully',
-    showConfirmButton: false,
-    timer: 1500
-  })
-  }
-  )
+  document.getElementById('form')
+   .addEventListener('submit', function(event) {
+     event.preventDefault();
+  
+     btn.innerText = 'Sending...';
+  
+     const serviceID = 'default_service';
+     const templateID = 'template_ddppmdc';
+  
+     emailjs.sendForm(serviceID, templateID, this)
+      .then(() => {
+        btn.innerText = 'Send Email, thanks';
+        Swal.fire({
+          position: 'top-end',
+          icon: 'success',
+          title: 'Sent successfully',
+          showConfirmButton: false,
+          timer: 1500
+        });
+      }, (err) => {
+        btn.value = 'Send Email';
+        alert(JSON.stringify(err));
+      });
+  });
