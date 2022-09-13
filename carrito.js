@@ -3,6 +3,8 @@
 const contenedor = document.getElementById("participation")
 const contenedorcarrito = document.getElementById("chango")
 const botonvaciar = document.getElementById("vaciar")
+const preciototal = document.getElementById("preciototal")
+const comprar = document.getElementById("compra")
 
 let carrito = []
 
@@ -84,7 +86,7 @@ const actualizarcarrito = () => {
         localStorage.setItem("carrito" , JSON.stringify(carrito))
 
     })
-   
+   preciototal.innerText = carrito.length
 }
 
 
@@ -95,6 +97,7 @@ const eliminardelcarrito =  (datId) =>  {
     const indice= carrito.indexOf(item)
 
     carrito.splice(indice, 1)
+    
     
     actualizarcarrito()
     
@@ -125,3 +128,9 @@ botonvaciar.addEventListener("click", () => {
   })
 
 
+comprar.addEventListener("click", () => Swal.fire({
+  icon: 'error',
+  title: 'Oops...',
+  text: 'we are not for sale yet, come back soon!',
+  footer: '<a href="https://www.youtube.com/watch?v=AqAH_JJyRj0&t=118s" target="_blank">Do you want to listen yo a Joseph set?</a>'
+}) )

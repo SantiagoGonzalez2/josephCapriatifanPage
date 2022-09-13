@@ -76,7 +76,10 @@
 
     
 }
-
+#contadormodal{
+display: flex;
+justify-content: space-evenly;
+}
 
 @media (max-width: 550px) {
     #titulosets{
